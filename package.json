@@ -1,0 +1,14 @@
+{
+  "name": "color-style-updater",
+  "version": "1.0.0",
+  "description": "Update color styles in Figma",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.82.0",
+    "typescript": "^5.3.0"
+  }
+}
