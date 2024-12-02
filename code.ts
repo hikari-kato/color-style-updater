@@ -16,6 +16,10 @@ async function updateColorStyles() {
         await updateStyleFromReference(style, 'M3/ref/neutral-variant/neutral-variant95');
         break;
       
+      case 'M3/sys/light/surface-container-highest':
+        await updateStyleFromReference(style, 'M3/sys/light/surface-variant');
+        break;
+      
       case 'M3/surfaces/light/surface1':
         await updateSurfaceStyle(style, 'M3/sys/light/primary', 'M3/sys/light/surface', 0.05);
         break;

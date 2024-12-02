@@ -1,5 +1,5 @@
 # color-style-updater
-BCアプリ用のOutline、Surface Variant、Surfacesの色を調整するプラグイン。
+BCアプリ用のOutline、Surface Variant、Surfaces、Surface Container Highestの色を調整するプラグイン。
 
 ```
 npm install

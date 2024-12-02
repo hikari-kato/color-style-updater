@@ -23,6 +23,9 @@ function updateColorStyles() {
                 case 'M3/sys/light/surface-variant':
                     yield updateStyleFromReference(style, 'M3/ref/neutral-variant/neutral-variant95');
                     break;
+                case 'M3/sys/light/surface-container-highest':
+                    yield updateStyleFromReference(style, 'M3/sys/light/surface-variant');
+                    break;
                 case 'M3/surfaces/light/surface1':
                     yield updateSurfaceStyle(style, 'M3/sys/light/primary', 'M3/sys/light/surface', 0.05);
                     break;
